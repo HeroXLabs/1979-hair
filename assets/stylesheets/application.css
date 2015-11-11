@@ -14157,7 +14157,7 @@ nav.main-nav {
       padding: 0px 10px;
       font-size: 14px;
       line-height: 38px;
-      font-weight: 400;
+      font-weight: bold;
       background: transparent;
       color: #fff;
       transition: color .2s ease-in; }
@@ -15095,28 +15095,38 @@ ul.project-detail-block, .project-detail-block ul {
 .item-nav .item-all-view h5, .item-nav .item-all-view h6 {
   padding-top: 8px; }
 
-/* line 9, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+@media (max-width: 600px) {
+  /* line 10, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  header.foodster {
+    font-size: 0.9em; }
+    /* line 12, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    header.foodster .slide-content {
+      padding: 0 30px; }
+    /* line 15, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    header.foodster a.carousel-control {
+      display: none; } }
+/* line 21, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
 header.foodster {
   background-color: #333;
   text-align: center;
   color: white;
   overflow: hidden;
   /* Down arrow */ }
-  /* line 10, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 22, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster .carousel-control .fa {
     z-index: 5;
     display: inline-block;
     font-size: 40px;
     position: absolute;
     top: 50%; }
-  /* line 21, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 33, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster .carousel, header.foodster .item, header.foodster .active, header.foodster .carousel-inner {
     height: 100%; }
-  /* line 24, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 36, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster .item {
     /* fill class used to create full screen background image */
     /* add background images for each slide */ }
-    /* line 26, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 38, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .fill {
       width: 100%;
       height: 100%;
@@ -15127,10 +15137,10 @@ header.foodster {
       -o-background-size: cover;
       position: absolute;
       z-index: -1; }
-    /* line 37, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 49, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .row, header.foodster .item .col-sm-8 {
       height: 100%; }
-    /* line 40, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 52, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .slide-content {
       position: absolute;
       left: 0;
@@ -15138,33 +15148,33 @@ header.foodster {
       top: 50%;
       text-shadow: 2px 3px 50px #000000;
       margin-top: -100px; }
-      /* line 47, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+      /* line 59, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
       header.foodster .item .slide-content h1 {
         font-size: 36px;
         margin-top: -40px;
         color: #fff; }
-      /* line 52, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+      /* line 64, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
       header.foodster .item .slide-content h2 {
         font-size: 20px;
         color: #fff;
         line-height: 40px; }
-    /* line 60, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 72, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_0 {
-      background-image: url("../../assets/images/IMG_5626.JPG"); }
-    /* line 64, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+      background-image: url("../../assets/images/ring.jpg"); }
+    /* line 76, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_1 {
-      background-image: url("../../assets/images/IMG_5627.JPG"); }
-    /* line 68, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+      background-image: url("../../assets/images/IMG_5626.JPG"); }
+    /* line 80, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_2 {
       background-image: url("../../assets/images/IMG_2620.JPG"); }
-    /* line 72, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 84, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_3 {
       background-image: url("../../assets/images/IMG_5630.JPG"); }
-  /* line 77, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 89, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster img {
     max-width: 100%;
     height: auto; }
-  /* line 82, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 94, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster .btn {
     position: absolute;
     bottom: 5%;
@@ -15180,18 +15190,18 @@ header.foodster {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
     /* add animation to down arrow icon */ }
-    /* line 96, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 108, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn:hover, header.foodster .btn:focus {
       outline: none;
       color: #fff;
       background: fade(#fff, 10%); }
-    /* line 103, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 115, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn i.animated {
       -webkit-transition-property: -webkit-transform;
       -webkit-transition-duration: 1s;
       -moz-transition-property: -moz-transform;
       -moz-transition-duration: 1s; }
-    /* line 110, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 122, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn:hover i.animated {
       -webkit-animation-name: pulse;
       -moz-animation-name: pulse;
@@ -15322,7 +15332,7 @@ header.foodster {
 body {
   line-height: 24px;
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   background-color: #1f1f1f;
