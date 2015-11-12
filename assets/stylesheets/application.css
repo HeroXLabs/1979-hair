@@ -14117,7 +14117,7 @@ nav.main-nav .container {
 nav.main-nav .navbar-brand img {
   margin-right: 15px;
   max-width: 200px;
-  height: 38px; }
+  height: 50px; }
 
 /* line 19, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_main_nav.css.scss */
 .navbar-brand span {
@@ -14140,7 +14140,7 @@ nav.main-nav {
     padding: 0 10px;
     font-size: 30px;
     line-height: 30px;
-    height: 38px;
+    height: 40px;
     color: #fff; }
   /* line 43, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_main_nav.css.scss */
   nav.main-nav .container {
