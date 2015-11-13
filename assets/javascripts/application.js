@@ -4835,7 +4835,8 @@ window.FoodsterIntro = function() {
     WorkGallery.setup();
     MultiGalleries.setup();
     FoodsterIntro.setup();
-    return ScrollToLinks.setup();
+    ScrollToLinks.setup();
+    return MapLoader.setup('gmap');
   });
 
 }).call(this);

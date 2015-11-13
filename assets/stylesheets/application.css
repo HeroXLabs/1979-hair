@@ -15331,7 +15331,33 @@ header.foodster {
         .menu_gallery ul li a:hover {
           color: #c9c9c9; }
 
-/* line 30, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 1, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_map.css.scss */
+#gmap {
+  display: block;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto; }
+
+/* line 8, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_map.css.scss */
+#gmap .infowin {
+  padding: 10px 20px; }
+
+/* line 12, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_map.css.scss */
+#gmap .infowin p {
+  margin-bottom: 10px;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+/* line 19, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_map.css.scss */
+#gmap .infowin a {
+  color: #F28C83; }
+
+/* line 23, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_map.css.scss */
+#gmap .infowin a:hover {
+  text-decoration: underline; }
+
+/* line 31, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 body {
   line-height: 24px;
   font-size: 13px;
@@ -15340,40 +15366,40 @@ body {
   letter-spacing: 1px;
   background-color: #1f1f1f;
   color: #c9c9c9; }
-  /* line 39, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+  /* line 40, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
   body p {
     font-size: 16px;
     line-height: 28px;
     font-weight: 300; }
-  /* line 45, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+  /* line 46, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
   body.navbar-shrink-margin {
     padding-top: 80px; }
 
-/* line 50, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 51, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .page-section {
   margin: 150px 0; }
-  /* line 52, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+  /* line 53, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
   .page-section h1 {
     margin-top: 0;
     margin-bottom: 40px;
     line-height: 50px;
     color: white; }
-  /* line 58, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+  /* line 59, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
   .page-section h3.section-subheading {
     color: #7d7d7d; }
 
-/* line 63, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 64, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .section-heading,
 .section-subheading {
   font-weight: normal; }
 
-/* line 67, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 68, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .section-heading {
   font-size: 45px;
   margin-top: 0;
   margin-bottom: 15px; }
 
-/* line 73, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 74, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .section-subheading {
   font-size: 32px;
   text-transform: none;
@@ -15381,14 +15407,14 @@ body {
   font-weight: 400;
   margin-bottom: 50px; }
 
-/* line 81, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 82, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .section-icon {
   font-size: 250px;
   color: white;
   display: block;
   margin-top: -100px; }
 
-/* line 88, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 89, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 section .page-scroll .fa {
   color: #2e2e32;
   font-size: 40px;
@@ -15396,7 +15422,7 @@ section .page-scroll .fa {
   text-align: center;
   margin: 55px 0; }
 
-/* line 96, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 97, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 section i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
@@ -15411,7 +15437,7 @@ section i.animated {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear; }
 
-/* line 111, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 112, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus {
   z-index: 1;
   color: #fff;
@@ -15424,35 +15450,39 @@ section i.animated {
   background-size: cover;
   -o-background-size: cover; }
 
-/* line 123, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 124, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus .section-heading,
 #menus .section-subheading {
   color: #fff; }
 
-/* line 127, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 128, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus .fa {
   color: #fff; }
 
-/* line 130, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 131, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
-/* line 135, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 136, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus ul li {
   margin-bottom: 15px; }
 
-/* line 138, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 139, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 #menus ul li a {
   color: white;
   font-size: 28px;
   font-weight: normal !important; }
 
 /* Styles used for the fixed navbar */
-/* line 145, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+/* line 146, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
 .navbar-shrink {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99; }
+
+/* line 153, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/application.css.scss */
+footer#main-footer {
+  margin: 10px 0; }
