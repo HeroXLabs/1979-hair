@@ -15098,7 +15098,7 @@ ul.project-detail-block, .project-detail-block ul {
 @media (max-width: 600px) {
   /* line 10, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster {
-    font-size: 0.9em; }
+    font-size: 0.8em; }
     /* line 12, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .slide-content {
       padding: 0 30px; }
@@ -15163,21 +15163,18 @@ header.foodster {
         line-height: 40px; }
     /* line 75, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_0 {
-      background-image: url("../../assets/images/ring.jpg"); }
+      background-image: url("../../assets/images/IMG_5626.JPG"); }
     /* line 79, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_1 {
-      background-image: url("../../assets/images/IMG_5626.JPG"); }
+      background-image: url("../../assets/images/IMG_2620.JPG"); }
     /* line 83, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .item .item_2 {
-      background-image: url("../../assets/images/IMG_2620.JPG"); }
-    /* line 87, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
-    header.foodster .item .item_3 {
       background-image: url("../../assets/images/IMG_5630.JPG"); }
-  /* line 92, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 88, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster img {
     max-width: 100%;
     height: auto; }
-  /* line 97, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+  /* line 93, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
   header.foodster .btn {
     position: absolute;
     bottom: 5%;
@@ -15193,18 +15190,18 @@ header.foodster {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
     /* add animation to down arrow icon */ }
-    /* line 111, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 107, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn:hover, header.foodster .btn:focus {
       outline: none;
       color: #fff;
       background: fade(#fff, 10%); }
-    /* line 118, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 114, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn i.animated {
       -webkit-transition-property: -webkit-transform;
       -webkit-transition-duration: 1s;
       -moz-transition-property: -moz-transform;
       -moz-transition-duration: 1s; }
-    /* line 125, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
+    /* line 121, /Users/he9lin/Projects/mobile-sites/1979-hair-x/source/assets/stylesheets/_foodster.css.scss.erb */
     header.foodster .btn:hover i.animated {
       -webkit-animation-name: pulse;
       -moz-animation-name: pulse;
