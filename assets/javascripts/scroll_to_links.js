@@ -7,7 +7,7 @@ window.ScrollToLinks = function($) {
   }
 
   function scrollToHash(target, opts) {
-    var scrollOpts = $.extend({ gap: { y: -200 } }, opts || {});
+    var scrollOpts = $.extend({ gap: { y: -80 } }, opts || {});
     console.log(target);
     $('html,body').scrollTo(target, target, scrollOpts);
 

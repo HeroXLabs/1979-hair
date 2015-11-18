@@ -1,5 +1,5 @@
 window.HomeIntro = function() {
-  var $mainNavEle   = $('.x-main-nav');
+  var $mainNavEle = $('.x-main-nav');
   var homeStartHeight = $(window).height() + 50;
 
   function parallax() {
@@ -39,12 +39,6 @@ window.HomeIntro = function() {
 
       }
     };
-
-    //Parallax plugin Js Function element
-    $.stellar({
-      horizontalScrolling: false,
-      verticalOffset: 500
-    })
   }
 
   function mainNavScroll() {
@@ -67,21 +61,24 @@ window.HomeIntro = function() {
 
       $('.fullscreen-carousel').flexslider({
         animation: "slide",
-        //  startAt: 0,
         animationSpeed: 700,
         animationLoop: true,
         slideshow: true,
         easing: "swing",
         controlNav: false,
         before: function (slider) {
-          //   $('.fullscreen-carousel .overlay-hero .caption-hero').fadeOut();
-          $('.fullscreen-carousel .overlay-hero .caption-hero').fadeOut().animate({ top: '80px' }, { queue: false, easing: 'easeOutQuad', duration: 700 });
+          $('.fullscreen-carousel .overlay-hero .caption-hero').
+            fadeOut().
+            animate({ top: '80px' }, { queue: false, easing: 'easeOutQuad', duration: 700 });
+
           slider.slides.eq(slider.currentSlide).delay(400);
           slider.slides.eq(slider.animatingTo).delay(400);
         },
         after: function (slider) {
-          //$('.fullscreen-carousel .flex-active-slide').find('.caption-hero').delay().fadeIn(1500);
-          $('.fullscreen-carousel .flex-active-slide').find('.caption-hero').fadeIn(2000).animate({ top: '0' }, { queue: false, easing: 'easeOutQuad', duration: 1200 });
+          $('.fullscreen-carousel .flex-active-slide').find('.caption-hero').
+            fadeIn(2000).
+            animate({ top: '0' }, { queue: false, easing: 'easeOutQuad', duration: 1200 });
+
           BackgroundCheck.refresh();
         },
         start: function (slider) {
